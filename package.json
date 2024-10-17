@@ -1,7 +1,7 @@
 {
   "name": "rest-api",
   "version": "1.0.0",
-  "description": "Ryzen rest API",
+  "description": "AETHER rest API",
   "main": "main.js",
   "type": "commonjs",
   "scripts": {
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShirokamiRyzen/Ryzen-RestAPI.git"
+    "url": "https://github.com/aetherzcode/AETHER-RestAPI.git"
   },
   "keywords": [
     "Express"
   ],
-  "author": "Shirokami Ryzen",
+  "author": "AETHER",
   "license": "ISC",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -22,7 +22,7 @@
     "axios": "^1.6.0",
     "bitly": "^7.1.2",
     "body-parser": "^1.20.1",
-    "cheerio": "^1.0.0-rc.11",
+    "cheerio": "^1.0.0-rc.12",
     "connect-flash": "^0.1.1",
     "cookie": "^0.5.0",
     "cors": "^2.8.5",
@@ -58,6 +58,6 @@
     "tinyurl": "^1.1.7",
     "translate-google": "^1.5.0",
     "yt-search": "^2.10.3",
-    "ytdl-core": "^4.11.5"
+    "ytdl-core": "npm:@distube/ytdl-core@^4.13.3"
   }
 }

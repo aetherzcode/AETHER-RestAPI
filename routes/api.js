@@ -24,7 +24,7 @@ const isNumber = require('is-number');
 const router = express.Router()
 const ryzen = require("../lib/listdl")
 var error = __path + '/view/error.html'
-let creator = 'Shirokami Ryzen'
+let creator = 'AETHER'
 loghandler = {
 	error: {
 		status: false,
